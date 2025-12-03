@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "src/app.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "tsx --watch src/app.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -12,8 +12,10 @@
 	"packageManager": "pnpm@10.24.0",
 	"devDependencies": {
 		"@types/node": "^24.10.1",
+		"fastify-type-provider-zod": "^6.1.0",
 		"tsx": "^4.21.0",
-		"typescript": "^5.9.3"
+		"typescript": "^5.9.3",
+		"zod": "^4.1.13"
 	},
 	"dependencies": {
 		"fastify": "^5.6.2"
